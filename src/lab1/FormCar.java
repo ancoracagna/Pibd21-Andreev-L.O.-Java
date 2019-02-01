@@ -62,7 +62,6 @@ public class FormCar {
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		buttonRight = new JButton("→");
-		//buttonRight.setIcon(new ImageIcon("C:\\Users\\Р вЂ™Р ?Р С™Р С’\\Desktop\\ArrowRight1.png"));
 		buttonRight.setBounds(814, 386, 50, 50);
 		panel.add(buttonRight);
 		buttonRight.setFont(new Font("Tahoma", Font.PLAIN, 16));
@@ -75,7 +74,6 @@ public class FormCar {
 			}
 		});
 		buttonDown = new JButton("↓");
-		//buttonDown.setIcon(new ImageIcon("C:\\Users\\Р вЂ™Р ?Р С™Р С’\\Desktop\\ArrowDown1.png"));
 		buttonDown.setBounds(751, 386, 50, 50);
 		panel.add(buttonDown);
 		buttonDown.setFont(new Font("Tahoma", Font.PLAIN, 16));
@@ -88,7 +86,6 @@ public class FormCar {
 			}
 		});
 		buttonLeft = new JButton("←");
-		//buttonLeft.setIcon(new ImageIcon("C:\\Users\\Р вЂ™Р ?Р С™Р С’\\Desktop\\ArrowLeft1.png"));
 		buttonLeft.setBounds(689, 386, 50, 50);
 		panel.add(buttonLeft);
 		buttonLeft.setFont(new Font("Tahoma", Font.PLAIN, 16));
@@ -101,7 +98,6 @@ public class FormCar {
 			}
 		});
 		buttonUp = new JButton("↑");
-		//buttonUp.setIcon(new ImageIcon("C:\\Users\\Р вЂ™Р ?Р С™Р С’\\Desktop\\ArrowUp1.png"));
 		buttonUp.setBounds(751, 323, 50, 50);
 		panel.add(buttonUp);
 		buttonUp.setFont(new Font("Tahoma", Font.PLAIN, 16));
