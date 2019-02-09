@@ -89,11 +89,10 @@ public class Samosval {
 	public void DrawShip(Graphics g) {
 		Color pen = new Color(255, 255, 255);
         
-        //  ”«Œ¬
+        // √ä√ì√á√é√Ç
         g.drawRect((int)_startPosX + 80, (int) _startPosY + 15, 80, 20);
         g.fillRect((int)_startPosX + 80,(int) _startPosY + 15, 80, 20);
-        //   g.DrawLine(bpen, _startPosX, _startPosY);
-        //  ŒÀ≈—¿       
+        // √ä√é√ã√Ö√ë√Ä       
         Color white = new Color (0,0,0);
         g.setColor(white);
         g.drawOval((int)_startPosX + 140, (int)_startPosY + 25, 20, 20);
@@ -101,7 +100,7 @@ public class Samosval {
 
         g.fillOval((int) _startPosX + 140,(int) _startPosY + 25, 20, 20);
         g.fillOval((int) _startPosX + 80,(int) _startPosY + 25, 20, 20);
-        // œ≈–≈ƒÕﬂﬂ ◊¿—“‹  ”«Œ¬¿
+        // √è√Ö√ê√Ö√Ñ√ç√ü√ü √ó√Ä√ë√í√ú √ä√ì√á√é√Ç√Ä
         g.drawRect((int) _startPosX + 50,(int) _startPosY - 5, 30, 30);
         Color kuzov = new Color(255,255,0);
         g.setColor(kuzov);
