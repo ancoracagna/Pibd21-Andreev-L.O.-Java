@@ -118,7 +118,7 @@ public class WinCar {
 				PanelCar.ship = new GruzCar(rnd.nextInt(200) + 100, rnd.nextInt(1000) + 1000, Color.GRAY, Color.BLUE, true, true, 1);
 				PanelCar.initialization = true;
 				PanelCar.ship.SetPosition(rnd.nextInt(90) + 40, rnd.nextInt(90) + 40, panel.getWidth(), panel.getHeight());
-				RedrawUI();
+				RedrawUI(); 
 			}
 		});
 		

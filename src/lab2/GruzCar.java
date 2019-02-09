@@ -82,11 +82,7 @@ class GruzCar extends SamosvalCar {
         //Тонировка
         if (Toner)
         {
-        	g.setColor(blacPen);
-            //g.drawLine(_startPosX + 20, _startPosY + 50, _startPosX + 20, _startPosY);
-            //g.drawRect( _startPosX, _startPosY, 20, 15);
-            //g.setColor(DopColor);
-           // g.fillRect(_startPosX+1, _startPosY+1, 19, 14);     
+        	g.setColor(blacPen);                
             g.drawRect(_startPosX + 55, _startPosY, 15,15);
             g.fillRect(_startPosX + 55, _startPosY, 15, 15);
         }

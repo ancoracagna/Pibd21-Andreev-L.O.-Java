@@ -19,7 +19,6 @@ public class SamosvalCar extends Vehicle{
         // йсгнб
         g.drawRect((int)_startPosX + 80, (int) _startPosY + 15, 80, 20);
         g.fillRect((int)_startPosX + 80,(int) _startPosY + 15, 80, 20);
-        //   g.DrawLine(bpen, _startPosX, _startPosY);
         // йнкеяю       
         Color white = new Color (0,0,0);
         g.setColor(white);

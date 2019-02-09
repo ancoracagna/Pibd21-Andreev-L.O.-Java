@@ -14,4 +14,4 @@ public class PanelCar extends JPanel{
 			ship.DrawCar(g);
 		}
 	}
-}
+} 

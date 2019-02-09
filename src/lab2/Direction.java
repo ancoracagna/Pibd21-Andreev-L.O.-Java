@@ -1,6 +1,6 @@
 package lab2;
 
-public enum Direction {
+public enum Direction { 
 	Up,
     Down,
     Left,
